@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            color: red;
+            margin: 20px 0;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <!-- 遮盖 -->
+    <div id="cover"></div>
+
+    <!--登录页面  -->
+    <div id="logoins">
+        <div class="tang">
+            <div class="close">
+                <a href="./index.html" class="closes btn-1"></a>
+            </div>
+            <div class="pf">
+                <div class="pass" style="padding-top: 16px;">
+                    <div class="left">
+                        <p class="logo"></p>
+                        <div class="psp">
+                            <div class="qrcode">
+                                <div class="init">
+                                        <img width="138" height="138" src="./images/libinweixin.jpg"
+                                            alt="">
+                                        <p class="adm"></p>
+                                </div>
+                            </div>
+                            <p class="title">请使用微信扫一扫</p>
+                            <div class="download" style="display: block;visibility: visible;opacity: 1;">
+                                <div class="hover">
+                                    <div class="hrBox">
+                                        <img width="148" height="148" src="./images/libinweixin.jpg" alt="">
+                                    </div>
+                                    <p style="color: #1f1f1f; font-size: 18px;">扫描二维码下载bi鞋品栈APP</p>
+                                </div>
+                                <a href="http://adkx.net/9uk8t" id="dow">
+                                    下载bi鞋品栈APP
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p class="tab">
+                            <span class="activ bl lll" id="note1">
+                                账号登录
+                            </span>
+                            <span class="activ" id="note">
+                                短信登录
+                            </span>
+                        </p>
+                        <div class="sms" style="display: none; opacity:1">
+                            <p class="tip">验证即登录，未注册将自动创建bi鞋品栈帐号</p>
+                        </div>
+                        <form id="form" style="display: block; opacity:1" action="./index.html" methed="post"
+                            nosubmit="return submitHandle();">
+                            <div id="errMsf" class="error hide"></div>
+                            <p class="name">
+                                <input type="text" id="user" class="inp" placeholder="手机号/用户名/邮箱" autocomplete="off"
+                                    name="username">
+                            </p>
+                            <p class="password">
+                                <input type="password" id="password" class="inp" placeholder="密码" name="password">
+                            </p>
+                            <p class="error">
+                                <span class="genal"> </span>
+                                <a href="" target="_blank" class="zhmm">找回密码</a>
+                                <a href="http://adkx.net/9ug92" target="_blank" class="fgwad">忘记密码</a>
+                            </p>
+                            <p class="subimt">
+                                <input type="submit" id="btnon" value="登录">
+                                <span class="lk">
+                                    阅读并接受
+                                    <a href="http://adkx.net/9uh4v" target="_blank">bi鞋品栈用户协议</a>
+                                    和
+                                    <a href="http://adkx.net/9uhhc" target="_blank">隐私政策</a>
+                                </span>
+                            </p>
+                        </form>
+                        <form action="" id="form2">
+                            <p class="name">
+                                <input type="text" id="ipn" class="inp" placeholder="请输入手机号" autocomplete="off"
+                                    maxlength="11">
+                            </p>
+                            <p class="security">
+                                <input type="text" name="" maxlength="6" id="verify" class="inp" placeholder="验证码">
+                                <button id="timer">获取验证码</button>
+                                <!-- <input id="timer">发送验证码</input> -->
+                                <!-- <input type="button"  id="timer" value = "发送验证码" > -->
+
+                            </p>
+                            <p class="error2">
+                                <span class="genal2"> </span>
+                            </p>
+                            <p class="subimt2">
+                                <input type="button" id="btnon2" value="登录">
+                                <span class="lk2">
+                                    阅读并接受
+                                    <a href="http://adkx.net/9uh4v" target="_blank">bi鞋品栈用户协议</a>
+                                    和
+                                    <a href="http://adkx.net/9uhhc" target="_blank">隐私政策</a>
+                                </span>
+                            </p>
+                        </form>
+
+                    </div>
+
+                </div>
+                <div class="bom">
+                    <div class="phoeix">
+                        <ul class="acc">
+                            <li>
+                                <a title="QQ账号" class="it1"></a>
+                            </li>
+                            <li>
+                                <a title="微博账号" class="it2"></a>
+                            </li>
+                            <li>
+                                <a title="微信账号" class="it3"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="http://adkx.net/9uh7u" class="reglink" target="_blank">立即注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script>
+    // let username = '12121212121';
+    // let password = '123456';
+
+    // $useEle = $('input[name = "username"]')
+    // $pwdEle = $('input[name = "password"]')
+    // $errMsg = $('#errMsg');
+
+    // function submitHandle() {
+
+    //     let userValue = $useEle.val()
+    //     let pwdValue = $pwdEle.val()
+    //     // 用户名不能为空,不能含有特殊符号,最少是八位数
+
+    //     let userReg = /^\w{8,}$/;
+    //     if (!userReg.test(userValue)) {
+    //         //不满足,给用户提示
+    //         $errMsg.html('用户名不能为空,不能有特殊符号,最少8位').removeClass('hide');
+    //         //获取焦点到输入框内
+    //         $useEle.focus()
+    //         return false;
+    //     }
+    // }
+
+
+
+</script>
+
+</html>

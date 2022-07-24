@@ -1,0 +1,1373 @@
+body {
+    /*清除浏览器自带样式*/
+    margin: 0;
+    padding: 0;
+    /*background-repeat: no-repeat;*/
+    min-width: 1200px;
+    font: 13px/23px Arial, sans-serif;
+}
+
+input {
+    outline: 0;
+    border: 0;
+}
+
+form {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    font-size: #222;
+}
+
+li {
+    list-style-type: none;
+}
+
+#head {
+    position: relative;
+    padding-bottom: 0;
+    height: 100%;
+    min-height: 600px;
+    /* text-align: center; */
+    overflow: hidden;
+}
+
+#head #topWrap {
+    position: absolute;
+    z-index: 99;
+    min-width: 1000px;
+    width: 100%;
+}
+
+#head .topWrap {
+    border-bottom: 0;
+    height: 60px;
+    background: #fff;
+    left: 0;
+}
+
+#head #topWrap .topLeft {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    padding-left: 24px;
+    width: 100%;
+}
+
+#head #topWrap .topLeft .mav {
+    margin-right: 31px;
+    margin-top: 19px;
+    display: inline-block;
+    position: relative;
+}
+
+.cnt {
+    color: #222;
+}
+
+#head #topWrap .topLeft .more {
+    padding-bottom: 19px;
+}
+
+#head #topWrap .topLeft a:hover {
+    color: #315efb;
+}
+
+#head #topWrap .topRight {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    padding-right: 24px;
+}
+
+#head #topWrap .topRight .nornal {
+    margin-left: 32px;
+    margin-top: 19px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    color: #000;
+}
+
+#head #topWrap .topRight .nornal:hover {
+    color: #315efb;
+}
+
+#head #topWrap .topRight .c-btn {
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 32px;
+    font-size: 13px;
+}
+
+#head #topWrap .topRight .logobtn {
+    display: inline-block;
+    overflow: hidden;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    outline: 0;
+    border: 0;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    border-radius: 6px;
+    padding: 0;
+    background-color: #f5f5f6;
+    *zoom: 1;
+    cursor: pointer;
+}
+
+#head #topWrap .topRight .primaly {
+    background-color: #4e6ef2;
+    color: #fff!important;
+}
+
+.topRight .rightSet {
+    /* display: none; */
+    width: 84px;
+    padding: 8px 0;
+    top: 48px;
+    position: absolute;
+    right: 10px;
+    float: right;
+    z-index: 999;
+    text-align: left;
+    height: 149px;
+    box-sizing: border-box;
+}
+
+.topRight .setBox {
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    -o-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    border-radius: 12px;
+    *border: 1px solid #d7d9e0;
+}
+
+.topRight .rightSet .memu {
+    width: 84px;
+    height: 101px;
+}
+
+.topRight .rightSet a {
+    display: block;
+    margin: 3px 16px 3px 16px;
+    color: #333;
+}
+
+.topRight .rightSet a:hover {
+    color: #315efb;
+}
+
+#head .lisdex {
+    position: relative;
+    height: 40%;
+    min-height: 314px;
+    max-height: 510px;
+    width: 654px;
+    margin: 0 auto;
+}
+
+.bomLay {
+    width: 1519px;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 39px;
+    padding-top: 1px;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0;
+    line-height: 39px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.bomLay .content {
+    text-align: center;
+}
+
+.bomLay .content .jw {
+    display: inline;
+    margin-right: 20px;
+}
+
+.bomLay .content .jw .yelo {
+    color: #bbb;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.bomLay .content .jw .yelo:hover {
+    color: #222;
+}
+
+#head .lisdex .logo {
+    height: 60%;
+    min-height: 185px;
+    max-height: 310px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+
+#head .lisdex .logo img {
+    bottom: 15px!important;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -135px;
+}
+
+#head .lisdex #fm {
+    width: 654px;
+    height: 44px;
+    z-index: 1;
+}
+
+#head .lisdex #fm .pmd {
+    position: relative;
+    width: 546px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background: 0 0;
+    vertical-align: top;
+    *vertical-align: middle;
+    height: 100%;
+}
+
+#head .lisdex #fm .pmd .soutu {
+    right: 16px;
+    margin-top: -9px;
+    background: #fff url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
+    background-position: 0 -51px;
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 13px;
+    cursor: pointer;
+}
+
+#head .lisdex #fm .pmd .soutu:hover {
+    background-position: 0 -75px;
+}
+
+#fm .pmd #text {
+    width: 480px;
+    height: 16px;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: top;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #c4c7ce;
+    background: #fff;
+    color: #222;
+    overflow: hidden;
+    padding-right: 48px;
+    box-sizing: content-box;
+}
+
+#head .lisdex #fm .pmd .borderCorol {
+    border: 2px solid #a7aab5
+}
+
+#head .lisdex #fm #btn {
+    cursor: pointer;
+    width: 108px;
+    height: 44px;
+    line-height: 45px;
+    line-height: 44px\9;
+    padding: 0;
+    background: 0 0;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    border: none;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.busug {
+    display: none;
+    position: absolute;
+    width: 535px;
+    background: #fff;
+    border: 1px solid #ccc!important;
+    _overflow: hidden;
+    box-shadow: 1px 1px 3px #ededed;
+    -webkit-box-shadow: 1px 1px 3px #ededed;
+    -moz-box-shadow: 1px 1px 3px #ededed;
+    -o-box-shadow: 1px 1px 3px #ededed;
+}
+
+.busug li {
+    width: 519px;
+    color: #000;
+    font: 14px arial;
+    line-height: 25px;
+    padding: 0 8px;
+    position: relative;
+    /* cursor: default; */
+    cursor: pointer;
+}
+
+#head .lisdex #fm .new {
+    width: 544px;
+    top: 35px;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #4E6EF2!important;
+    border-top: 0!important;
+    box-shadow: none;
+    font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    z-index: 1;
+}
+
+#head .lisdex #fm .new ul {
+    margin: 7px 14px 0;
+    padding: 8px 0 7px;
+    background: 0 0;
+    border-top: 2px solid #f5f5f6;
+}
+
+#head .lisdex #fm .new ul li {
+    width: auto;
+    padding-left: 14px;
+    margin-left: -14px;
+    margin-right: -14px;
+    color: #626675;
+    height: 28px;
+    line-height: 28px;
+    background: 0 0;
+    font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+#head .lisdex #fm .new ul li span {
+    color: #626675;
+}
+
+#head .lisdex #fm .new ul li:hover {
+    background-color: #f5f5f6;
+}
+
+#head .lisdex #fm .new ul li:hover span {
+    color: #315efb;
+}
+
+.assist {
+    position: fixed;
+    right: 24px;
+    bottom: 64px;
+    height: 88px;
+    background-color: #fbfbfb;
+    width: 44px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.assist .assistModule {
+    line-height: 44px;
+    height: 44px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding-top: 12px;
+}
+
+.assist .assistModule .entry {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.assist .assistModule .iten {
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAA7VBMVEUAAAD////////s8v////+txP+qwv+4zf/w9f/2+P+hu//Q3f+yyP+4zf/Q3f////+kvv+90P+80f+2yv/S4P/T4P/M2//z9/+cuP/V4P9Whv////9Uhf9Sg/9Pgf9NgP/8/f9di/9Xh/9lkf5aif9qlP7z9//k7P/c5v+2y/94nv51nP6lv/+LrP6Ep/6BpP5gjf7v9P+wxv/U4f/M2/+sxP+vxv73+f/P3v/J2v+5zf+ivP+fuv9xmf+Ytv6Usv6Hqf58of5vl/7m7v/g6f+zyf6QsP75+//q8P/B0v/W4//C1P6+0P6qwv6ct/76fHZiAAAAGnRSTlMAGAaVR/Py45aC9Mfy2b8t9OPZ2ce/v4L0x/e74/EAAAIZSURBVDjLZVPXYuIwEDSmQ4BLv5O0ku3Yhwu2IZTQe0hy7f8/57QSoYR5sVea1c424wgzl324LRRuH7I507hEJluYucCFEOBGhWzmy7X5+N0WwIjTbrcdBsKulM0z96onGCGE2X6n+cTkj/CqJ480igzkNXp26E9JkABSbBz8i4Bn3EkH840mKHoxs49fZQzt2Kd03FQEzSB3WsejB9Jqf1CJQBM0wCurABWBoub0gkDENwyStTHA62pwSWDtklRQ4FLfjnaiPqVW60hAYeLKNHIREOZuKTL80H6XBFCwn4BAmDOyLiOQUIlOSEjaoS+Ju57NZuul73Fml4w6yAivSLBW3MGfcfBmIegmArg3alICdJHgy1jQt8Z/6CcC4DdGXhLIoiWRACpbLYbDYW80GnXp2GH8ShP+PUvEoHsAIFq9Xm8+kXlIwkkI9pm+05Tm3yWqu9EiB0pkwjWBx2i+tND1XqeZqpPU4VhUbq/ekR8CwTRVoRxf3ifTbeIwcONNsJZ2lxFVKDMv1KNvS2zXdrnD+COvR1PQpTZKNlKD3cLCOJNnivgVxkw169BunlKFaV9/B+LQbqOsByY4IVgDB59dl/cjR9TIJV1Lh7CGqUqH/DDPhhZYOPkdLz6m0X7GrzPHsSe6zJwzxvm+5NeNi8U5ABfn7mz7zHJFrZ6+BY6rd7m8kQtcAtwwXzq4n69/vZbP1+pn6/8fsrRmHUhmpYYAAAAASUVORK5CYII=) no-repeat;
+    background-size: 16px;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #626675;
+}
+
+.assist .assistModule:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
+}
+
+.assist .assistModule:hover .iten {
+    border: 1px solid #4e6ef2
+}
+
+.assist .assistModule .hint {
+    width: 84px;
+    display: none;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    right: 52px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    color: #333;
+    top: 9px;
+    text-align: center;
+}
+
+.assist .code {
+    width: 44px;
+    height: 44px;
+}
+
+.assist .code .mask {
+    width: 100%;
+    border-radius: 50%;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.assist .code .mask .icon {
+    height: 24px;
+    width: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+/* .assist .code .mask .hide {
+    display:none;
+} */
+
+.assist .code .mask:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1);
+}
+
+.assist .code .mask .tooltip {
+    /* display: none; */
+    position: absolute;
+    right: 56px;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 303;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 12px;
+}
+
+.assist .code .mask .codetooltip {
+    width: 289px;
+    height: 107px;
+    overflow: hidden;
+    display: none;
+}
+
+.assist .code .mask .tooltip .tet {
+    text-align: left;
+    margin-top: 28px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.assist .code .mask .tooltip .tet .logoTet {
+    color: #333;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 4px;
+}
+
+.assist .code .mask .tooltip .tet .logoTet svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.assist .code .mask .tooltip .tet .info {
+    font-size: 14px;
+    color: #9195a3;
+}
+
+.assist .code .mask .tooltip .tet .erweima {
+    position: absolute;
+    top: -13px;
+    right: 12px;
+    width: 85px;
+    height: 80px;
+}
+
+.lisdex .hotsearch {
+    width: 654px;
+    margin: 45px auto 0;
+}
+
+.lisdex .hotsearch .title {
+    height: 25px;
+    width: 100%;
+    position: relative;
+}
+.lisdex .hotsearch .title a .titleTest {
+    float: left;
+    user-select: none;
+}
+
+.lisdex .hotsearch .title a .titleTest span {
+    color: #222;
+    font-weight: 700;
+}
+
+.lisdex .hotsearch .title a .titleTest span:hover {
+    color: #5975fb;
+}
+
+.lisdex .hotsearch .flush {
+    cursor: pointer;
+    user-select: none;
+    float: right;
+    height: 16px;
+    position: relative;
+    top: 1px;
+    font: 13px/23px Arial, sans-serif;
+    color: #9195a3;
+}
+     
+.lisdex .hotsearch .flush .refresh {
+    position: absolute;
+    top: -3px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+
+/* 刷新动画 */
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.lisdex .hotsearch .flush span {
+    font-size: 14px;
+    line-height: 14px;
+    color: #626675;
+    margin-left: 2px;
+}
+
+.lisdex .hotsearch .flush:hover {
+    color: #5975fb;
+}
+
+.lisdex .hotsearch .flush:hover span {
+    color: #5975fb;
+}
+
+.flush .rotate {
+    animation: rotate .5s ease-out 0s;
+    -webkit-animation: rotate .5s ease-out 0s
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+.pmd .tip {
+    display: none;
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    height: 32px;
+    width: 94px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #626675;
+    position: absolute;
+    z-index: 2;
+    top: 52px;
+    right: 5px;
+}
+
+.hotsearch .hots {
+    text-align: left;
+    width: 654px;
+    height: 300px;
+    padding: 0;
+}
+
+.hotsearch .hots .item {
+    width: 306px;
+    float: left;
+}
+
+.hotsearch .hots .odd {
+    margin-right: 20px;
+    clear: both;
+}
+
+#head .lisdex .hotsearch .hots .item .content .gray {
+    z-index: 99999;
+    color: #9195a3;
+}
+
+.hotsearch .hots .item .font {
+    color: #222;
+    font: 14px/24px Arial, sans-serif;
+}
+
+.hotsearch .hots .item .content {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+}
+
+.hotsearch .hots .item .content .index {
+    margin-right: 4px;
+    width: 22px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+    top: 1px;
+}
+
+.hotsearch .hots .item .content .single {
+    display: inline-block;
+    background: 0 0;
+    color: #9195a3;
+    width: 18px;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+
+.item .content .index .tw {
+    color: #ff8318;
+}
+
+.lisdex .hotsearch .hots .item .content .three {
+    color: #faa90e;
+}
+
+.hotsearch .hots .item .content .htn1 {
+    color: #fe2d46;
+}
+
+.hotsearch .hots .item .content .tests {
+    display: inline-block;
+    padding: 0 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    color: #fff;
+    overflow: hidden;
+    line-height: 16px;
+    height: 16px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+.hotsearch .hots .item .content .hot {
+    background-color: #ff6600;
+}
+
+.hotsearch .hots .item .content .prt {
+    margin-left: 6px;
+    position: relative;
+    top: -2px;
+}
+
+.hotsearch .hots .even {
+    margin-left: 20px;
+}
+
+.hotsearch .hots .item a:hover {
+    color: #315efb;
+    text-decoration: underline;
+}
+
+#open {
+    cursor: pointer;
+}
+
+#cover {
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 60000;
+    background-color: rgb(0, 0, 0);
+   
+}
+
+#logoins {
+    text-align: left;
+    transform: translate(-50%, -50%);
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    font-size: 14px;
+    font-family: "PingFang SC";
+    width: 800px;
+    height: 404px;
+    z-index: 100000;
+    background-color: #fff;
+    border-radius: 16px;
+    
+}
+
+#logoins .tang {
+    /* cursor: move; */
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    height: 0px;
+    width: 800px;
+    margin-bottom: -1px;
+}
+
+#logoins .tang .pf {
+    position: relative;
+    padding-top: 20px;
+}
+
+#logoins .tang .pf .pass {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 315px;
+}
+
+#logoins .tang .pf .pass .left {
+    width: 397px;
+    height: 315px;
+    border-right: 1px solid rgb(238, 238, 238);
+}
+
+#logoins .tang .pf .pass .left .logo {
+    margin-top: -12px;
+    background: url(http://127.0.0.1:5500/skin/picture/logo.png) left center / 100% 100% no-repeat;
+    font-size: 16px;
+    height: 30px;
+    width: 94px;
+    line-height: 46px;
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 13px 30px;
+}
+
+#logoins .tang .pf .pass .left .psp {
+    position: relative;
+    z-index: 18;
+    padding: 0px 30px;
+    width: 336px;
+    display: block;
+    height: 273px;
+}
+
+#logoins .tang .pf .pass .left .psp .qrcode {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 18px;
+    width: 336px;
+    box-sizing: content-box;
+    height: 177px;
+}
+
+.left .psp .qrcode .init {
+    padding-top: 17px;
+    width: 336px;
+    height: 160px;
+}
+
+.left .psp .qrcode .init .con {
+    width: 172px;
+    height: 172px;
+    box-sizing: border-box;
+    border: 1px solid rgba(133, 133, 133, 0.3);
+    border-radius: 9px;
+    padding: 13px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin: 0px auto;
+    line-height: 20px;
+    transition: liner 0.3s ease 0s;
+    transform: translateX(0px);
+    width: 160px;
+    height: 160px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    float: left;
+}
+
+.left .psp .qrcode .init .con .adm {
+    background: url(./images/libinweixin.jpg) center center / 134px 160px no-repeat;
+    height: 160px;
+    width: 134px;
+    position: absolute;
+    top: 0px;
+    left: 193px;
+    display: block;
+    margin: 0;
+}
+
+.left .psp .title {
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.left .psp .download {
+    position: relative;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.left .psp .download .hover {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 16;
+    height: 268px;
+    width: 339px;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    top: -279px;
+    border-radius: 12px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 5px 1px;
+    padding-top: 30px;
+}
+
+.left .psp .download .hover .hrBox {
+    width: 172px;
+    height: 172px;
+    margin: 0px auto 19px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 9px;
+}
+
+.left .psp .download #dow {
+    height: 34px;
+    line-height: 34px;
+    padding: 8px 18px;
+    background: rgb(245, 245, 246);
+    border-radius: 8px;
+    color: rgb(78, 110, 242);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.left .psp .download #dow img {
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-bottom: 1px;
+    height: 21px;
+    width: 20px;
+}
+
+/* .left .psp .download .cor {
+    color: #95a8f7;
+    background-color: #f9f9fa;
+} */
+
+#logoins .tang .pf .pass .right {
+    width: 403px;
+    height: 315px;
+}
+
+#logoins .tang .pf .pass .right .tab {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+    padding: 0px 32px 11px;
+    margin-bottom: 0px;
+}
+
+#logoins .tang .pf .pass .right .tab .activ {
+    margin-right: 36px;
+    color: rgb(133, 133, 133);
+    position: relative;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+#logoins .tang .pf .pass .right .tab .bl {
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+}
+
+#logoins .tang .pf .pass .right .tab .lll::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    width: 72px;
+    background: rgb(78, 110, 242);
+    border-radius: 1px;
+}
+
+.right .sms {
+    padding: 0px 32px;
+    position: relative;
+    z-index: 18;
+}
+
+.right .sms .tip {
+    line-height: 12px;
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+    margin: 11px 0px 14px;
+    font-size: 12px;
+}
+
+#logoins .tang .close {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    z-index: 100;
+}
+
+#logoins .tang .close .closes {
+    width: 21px;
+    height: 21px;
+    outline: 0;
+    display: block;
+    margin: 9px -11px;
+    padding: 0
+}
+
+#logoins .tang .close .btn-1 {
+    background: url(https://passport.baidu.com/passApi/img/uni-close.png) no-repeat center center / 100% 100%;
+    cursor: pointer;
+}
+
+.right #form {
+    padding: 0 32px;
+    margin-top: 37px;
+    height: 234px;
+}
+
+.right #form2 {
+    padding: 0 32px;
+    height: 234px;
+    display: none;
+}
+
+.right #form2 .name {
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    z-index: 18;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+}
+
+.right #form2 .error .zhmm {
+    font-size: 14px;
+    text-decoration: none;
+    color: #4e6ef2;
+    position: absolute;
+    top: 122px;
+    left: 252px;
+    display: none;
+}
+
+.right #form2 .inp {
+    caret-color: #4e6ef2;
+    position: relative;
+    z-index: 17;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+    margin: 0;
+    height: 48px;
+    line-height: 20px;
+    width: 336px;
+    border: 1px solid #b8b8b8;
+    font-size: 15px;
+    color: #1f1f1f;
+    transition: .3s;
+    font-family: PingFangSC-Regular, Tahoma, Helvetica, "Microsoft Yahei", "微软雅黑", Arial, STHeiti;
+    border-radius: 8px;
+}
+
+.right #form .name {
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    z-index: 18;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+}
+
+.right #form .error .zhmm {
+    font-size: 14px;
+    text-decoration: none;
+    color: #4e6ef2;
+    position: absolute;
+    top: 122px;
+    left: 252px;
+    display: none;
+}
+
+.right #form .inp {
+    caret-color: #4e6ef2;
+    position: relative;
+    z-index: 17;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+    margin: 0;
+    height: 48px;
+    line-height: 20px;
+    width: 336px;
+    border: 1px solid #b8b8b8;
+    font-size: 15px;
+    color: #1f1f1f;
+    transition: .3s;
+    font-family: PingFangSC-Regular, Tahoma, Helvetica, "Microsoft Yahei", "微软雅黑", Arial, STHeiti;
+    border-radius: 8px;
+}
+
+.right #form .foucs {
+    border-color: #4e6ef2;
+    box-shadow: 0 0 0 3px rgba(78, 110, 242, .2)
+}
+
+.right #form .foucss {
+    border-color: #fc4343;
+    box-shadow: 0 0 0 3px rgba(255, 51, 51, .2)
+}
+
+.right #form2 .foucr {
+    border-color: #4e6ef2;
+    box-shadow: 0 0 0 3px rgba(78, 110, 242, .2)
+}
+
+.right #form2 .foucres {
+    border-color: #fc4343;
+    box-shadow: 0 0 0 3px rgba(255, 51, 51, .2)
+}
+
+.right #form .password {
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    z-index: 18;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.right #form2 .security {
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    z-index: 18;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.right #form2 #timer {
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 16px;
+    width: 100px;
+    font-size: 16px;
+    line-height: 16px;
+    transition: .3s;
+    color: #4e6ef2;
+    border: 0;
+    border-left: 1px solid #dedede;
+    background-color: #fff;
+    cursor: default;
+    z-index: 100;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.right #form2 .error2 {
+    height: auto;
+    _height: 24px;
+    min-height: 24px;
+    color: #f33;
+    width: 339px;
+    height: 28px;
+    margin: 0;
+}
+
+.right #form2 .error2 .genal2 {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 8px;
+    margin-bottom: 14px;
+    height: 14px;
+}
+
+.right #form2 .subimt2 {
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    z-index: 18;
+    text-align: center;
+    width: 339px;
+    height: 82px;
+}
+
+.right #form2 .subimt2 #btnon2 {
+    background-color: #4e6ef2;
+    width: 336px;
+    height: 48px;
+    line-height: 48px;
+    background: #4e6ef2;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px 0 rgb(78 111 242 / 30%);
+    font-size: 17px;
+    font-weight: 800;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.right #form2 .subimt2 .lk2 {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #525252;
+}
+
+.right #form2 .subimt2 .lk2 a {
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #4e6ef2;
+}
+
+.right #form .error {
+    height: auto;
+    _height: 24px;
+    min-height: 24px;
+    color: #f33;
+    width: 339px;
+    height: 28px;
+    margin: 0;
+    /* position:relative; */
+}
+
+.right #form .error .genal {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 14px;
+    margin-bottom: 14px;
+    height: 14px;
+}
+
+.right #form .fgwad {
+    float: right;
+    font-size: 14px;
+    color: #4e6ef2;
+    margin-top: -30px;
+    /* position: absolute;
+    top: 30px;
+    right: 0; */
+}
+
+.right #form .subimt {
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    z-index: 18;
+    text-align: center;
+    width: 339px;
+    height: 82px;
+}
+
+.right #form .subimt #btnon {
+    background-color: #4e6ef2;
+    width: 336px;
+    height: 48px;
+    line-height: 48px;
+    background: #4e6ef2;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px 0 rgb(78 111 242 / 30%);
+    font-size: 17px;
+    font-weight: 800;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.right #form .subimt .lk {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #525252;
+}
+
+.right #form .subimt .lk a {
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #4e6ef2;
+}
+
+.pf .bom {
+    color: #2e82ff;
+    height: 56px;
+    line-height: 56px;
+    padding: 0 32px;
+    position: relative;
+    text-align: left;
+    width: 736px;
+    height: 56px;
+}
+
+.pf .bom .phoeix {
+    float: left;
+    display: block;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    zoom: 1;
+    width: 142px;
+}
+
+.pf .bom .phoeix .acc {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 16px;
+}
+
+.pf .bom .phoeix .acc li {
+    width: 26px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 16px;
+}
+
+.pf .bom .phoeix .acc li .it1 {
+    height: 28px;
+    padding-left: 28px;
+    margin-top: 14px;
+    display: block;
+    color: #00c;
+    text-decoration: underline;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    list-style: none;
+    width: 9px;
+    background: url(https://passport.baidu.com/passApi/img/bd-acc-qzone.png) no-repeat center center / 100% 100%;
+}
+
+.pf .bom .phoeix .acc li .it2 {
+    height: 28px;
+    padding-left: 28px;
+    margin-top: 14px;
+    display: block;
+    color: #00c;
+    text-decoration: underline;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    list-style: none;
+    width: 9px;
+    background: url(https://passport.baidu.com/passApi/img/bd-acc-tsina.png) no-repeat center center / 100% 100%;
+}
+
+.pf .bom .phoeix .acc li .it3 {
+    height: 28px;
+    padding-left: 28px;
+    margin-top: 14px;
+    display: block;
+    color: #00c;
+    text-decoration: underline;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    list-style: none;
+    width: 9px;
+    background: url(https://passport.baidu.com/passApi/img/bd-acc-weixin.png) no-repeat center center / 100% 100%;
+}
+
+.pf .bom .reglink {
+    text-decoration: none;
+    font-size: 14px;
+    width: 80px;
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    right: 26px;
+    color: #4e6ef2;
+    top: 0;
+}
